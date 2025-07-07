@@ -172,7 +172,7 @@
             bindings = <&kp ESCAPE>;
             key-positions = <37 40>;
             timeout-ms = <50>;
-        }
+        };
 
     };
 
