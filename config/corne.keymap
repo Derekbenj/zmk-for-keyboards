@@ -177,7 +177,7 @@ keymap {
         display-name = "Base";
         bindings = <
           &kp ASTERISK           &kp Q                  &kp W                  &kp E                  &kp R                  &kp T                  &kp Y                  &kp U                  &kp I                  &kp O                  &kp P                  &kp PLUS
-          &kp EQUAL              &kp A                  &hm_l_ctrl LCTRL S     &hm_l_opt LALT D       &hm_l_cmd LGUI F       &kp G                  &kp H                  &hm_r_cmd RGUI J       &hm_r_opt RALT K       &hm_r_ctrl RCTRL       &kp SEMI               &kp AMPERSAND
+          &kp EQUAL              &kp A                  &hm_l_ctrl LCTRL S     &hm_l_opt LALT D       &hm_l_cmd LGUI F       &kp G                  &kp H                  &hm_r_cmd RGUI J       &hm_r_opt RALT K       &hm_r_ctrl RCTRL L     &kp SEMI               &kp AMPERSAND
           &none                  &kp Z                  &kp X                  &kp C                  &kp V                  &kp B                  &kp N                  &kp M                  &kp COMMA              &kp DOT                &kp SLASH              &none
                                                                                &kp LSHIFT             &kp BSPC               &kp ENTER              &mo 1                  &kp SPACE              &lt 2 CAPS
         >;
