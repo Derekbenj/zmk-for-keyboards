@@ -136,13 +136,13 @@
             bindings = <&kp LESS_THAN>;
             key-positions = <25 26>;
             timeout-ms = <50>;
-        }
+        };
 
         greater_than {
             bindings = <&kp GREATER_THAN>;
             key-positions = <33 34>;
             timeout-ms = <50>;
-        }
+        };
 
         underscore {
             bindings = <&kp UNDERSCORE>;
