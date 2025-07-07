@@ -196,7 +196,7 @@ keymap {
     fn_layer {
         display-name = "Func";
         bindings = <
-          &none                  &none                  &kp F7                 &kp F8                 &kp F9                 &none                  &none                  &kp K_MUT              &kp C_VOL_DN           &kp C_VOL_UP           &none                  &none
+          &none                  &none                  &kp F7                 &kp F8                 &kp F9                 &none                  &none                  &kp K_MUTE             &kp C_VOL_DN           &kp C_VOL_UP           &none                  &none
           &none                  &none                  &kp F4                 &kp F5                 &kp F6                 &none                  &none                  &none                  &kp C_BRI_DN           &kp C_BRI_UP           &none                  &none
           &none                  &none                  &kp F1                 &kp F2                 &kp F3                 &none                  &none                  &none                  &none                  &none                  &none                  &none
                                                                                &none                  &none                  &none                  &none                  &none                  &none
