@@ -22,7 +22,7 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
             // Position 13 (left ctrl) triggers with: other left mods + entire right hand
-            hold-trigger-key-positions = <14 15 16 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
+            hold-trigger-key-positions = <2 3 4 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
             hold-trigger-on-release;
         };
         
@@ -35,7 +35,7 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
             // Position 14 (left option) triggers with: other left mods + entire right hand
-            hold-trigger-key-positions = <13 15 16 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
+            hold-trigger-key-positions = <2 3 4 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
             hold-trigger-on-release;
         };
         
@@ -48,7 +48,7 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
             // Position 16 (left command) triggers with: other left mods + entire right hand
-            hold-trigger-key-positions = <13 14 15 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
+            hold-trigger-key-positions = <2 3 4 6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 39 40 41>;
             hold-trigger-on-release;
         };
         
@@ -62,7 +62,7 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
             // Position 19 (right command) triggers with: other right mods + entire left hand
-            hold-trigger-key-positions = <20 21 22 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
+            hold-trigger-key-positions = <7 8 9 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
             hold-trigger-on-release;
         };
         
@@ -75,7 +75,7 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
             // Position 21 (right option) triggers with: other right mods + entire left hand
-            hold-trigger-key-positions = <19 20 22 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
+            hold-trigger-key-positions = <7 8 9 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
             hold-trigger-on-release;
         };
         
@@ -88,7 +88,7 @@
             require-prior-idle-ms = <100>;
             bindings = <&kp>, <&kp>;
             // Position 22 (right ctrl) triggers with: other right mods + entire left hand
-            hold-trigger-key-positions = <19 20 21 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
+            hold-trigger-key-positions = <7 8 9 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
             hold-trigger-on-release;
         };
     };
@@ -182,10 +182,10 @@ keymap {
     default_layer {
         display-name = "Derk";
         bindings = <
-          &kp ASTERISK           &kp Q                  &kp W                  &kp E                  &kp R                  &kp T                  &kp Y                  &kp U                  &kp I                  &kp O                  &kp P                  &kp PLUS
-          &kp EQUAL              &kp A                  &hm_l_ctrl LCTRL S     &hm_l_opt LALT D       &hm_l_cmd LGUI F       &kp G                  &kp H                  &hm_r_cmd RGUI J       &hm_r_opt RALT K       &hm_r_ctrl RCTRL L     &kp SEMI               &kp AMPERSAND
+          &kp ASTERISK           &kp Q                  &hm_l_ctrl LCTRL W     &hm_l_opt LALT E       &hm_l_cmd LGUI R       &kp T                  &kp Y                  &hm_r_ctrl RGUI U      &hm_r_opt RALT I       &hm_r_vtrl RCTRL O     &kp P                  &kp PLUS
+          &kp EQUAL              &kp A                  &kp S                  &kp D                  &kp F                  &kp G                  &kp H                  &kp J                  &kp K                  &kp L                  &kp SEMI               &kp AMPERSAND
           &kp TAB                &kp Z                  &kp X                  &kp C                  &kp V                  &kp B                  &kp N                  &kp M                  &kp COMMA              &kp DOT                &kp SLASH              &none
-                                                                               &kp LSHIFT             &kp SPACE              &mo 2                  &lt 1 ENTER            &kp BSPC               &kp CAPSLOCK
+                                                                               &kp BSPC               &kp SPACE              &mo 1                  &kp ENTER            &kp LSHIFT               &mo 2
         >;
     };
 
@@ -194,8 +194,8 @@ keymap {
         bindings = <
           &none                  &none                  &kp N7                 &kp N8                 &kp N9                 &none                  &none                  &kp CARET              &kp DOLLAR             &kp PERCENT            &kp GRAVE              &none
           &none                  &none                  &kp N4                 &kp N5                 &kp N6                 &none                  &none                  &kp PIPE               &kp TILDE              &kp HASH               &kp DQT                &none
-          &none                  &none                  &kp N1                 &kp N2                 &kp N3                 &none                  &none                  &kp QMARK              &kp EXCL               &kp AT_SIGN            &none                  &none
-                                                                               &none                  &kp N0                 &none                  &none                  &none                  &none
+          &none                  &kp N0                 &kp N1                 &kp N2                 &kp N3                 &none                  &none                  &kp QMARK              &kp EXCL               &kp AT_SIGN            &none                  &none
+                                                                               &none                  &none                  &none                  &none                  &none                  &none
         >;
     };
 
