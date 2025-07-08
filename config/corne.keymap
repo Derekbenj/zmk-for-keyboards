@@ -182,7 +182,7 @@ keymap {
     default_layer {
         display-name = "Derk";
         bindings = <
-          &kp ASTERISK           &kp Q                  &hm_l_ctrl LCTRL W     &hm_l_opt LALT E       &hm_l_cmd LGUI R       &kp T                  &kp Y                  &hm_r_ctrl RGUI U      &hm_r_opt RALT I       &hm_r_vtrl RCTRL O     &kp P                  &kp PLUS
+          &kp ASTERISK           &kp Q                  &hm_l_ctrl LCTRL W     &hm_l_opt LALT E       &hm_l_cmd LGUI R       &kp T                  &kp Y                  &hm_r_ctrl RGUI U      &hm_r_opt RALT I       &hm_r_ctrl RCTRL O     &kp P                  &kp PLUS
           &kp EQUAL              &kp A                  &kp S                  &kp D                  &kp F                  &kp G                  &kp H                  &kp J                  &kp K                  &kp L                  &kp SEMI               &kp AMPERSAND
           &kp TAB                &kp Z                  &kp X                  &kp C                  &kp V                  &kp B                  &kp N                  &kp M                  &kp COMMA              &kp DOT                &kp SLASH              &none
                                                                                &kp BSPC               &kp SPACE              &mo 1                  &kp ENTER            &kp LSHIFT               &mo 2
