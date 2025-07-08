@@ -16,7 +16,7 @@
         hm_l_ctrl: hm_l_ctrl {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <280>;
             quick-tap-ms = <70>;
             require-prior-idle-ms = <100>;
@@ -29,7 +29,7 @@
         hm_l_opt: hm_l_opt {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <280>;
             quick-tap-ms = <70>;
             require-prior-idle-ms = <100>;
@@ -42,7 +42,7 @@
         hm_l_cmd: hm_l_cmd {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <280>;
             quick-tap-ms = <70>;
             require-prior-idle-ms = <100>;
@@ -56,7 +56,7 @@
         hm_r_cmd: hm_r_cmd {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <280>;
             quick-tap-ms = <70>;
             require-prior-idle-ms = <100>;
@@ -69,7 +69,7 @@
         hm_r_opt: hm_r_opt {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <280>;
             quick-tap-ms = <70>;
             require-prior-idle-ms = <100>;
@@ -82,7 +82,7 @@
         hm_r_ctrl: hm_r_ctrl {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <280>;
             quick-tap-ms = <70>;
             require-prior-idle-ms = <100>;
@@ -99,79 +99,79 @@
         left_bkt {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <27 28>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         right_bkt {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <31 32>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         left_par {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <15 16>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         right_par {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <19 20>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <3 4>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <7 8>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         less_than {
             bindings = <&kp LESS_THAN>;
             key-positions = <25 26>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         greater_than {
             bindings = <&kp GREATER_THAN>;
             key-positions = <33 34>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <21 22>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         colon {
             bindings = <&kp COLON>;
             key-positions = <13 14>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         single_quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <1 2>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <9 10>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
         esc { 
             bindings = <&kp ESCAPE>;
             key-positions = <37 40>;
-            timeout-ms = <50>;
+            timeout-ms = <25>;
         };
 
     };
