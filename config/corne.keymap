@@ -91,16 +91,6 @@
             hold-trigger-key-positions = <7 8 9 0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
             hold-trigger-on-release;
         };
-      
-        hm_esc: hm_esc {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <280>;
-            quick-tap-ms = <70>;
-            require-prior-idle-ms = <100>;
-            bindings = <&kp>, <&kp>;
-        };
     };
 
     combos {
@@ -185,10 +175,10 @@ keymap {
     default_layer {
         display-name = "Derk";
         bindings = <
-          &kp ASTERISK           &kp Q                  &hm_l_ctrl LCTRL W     &hm_l_opt LALT E       &hm_l_cmd LGUI R       &kp T                  &kp Y                  &hm_r_ctrl RGUI U      &hm_r_opt RALT I       &hm_r_ctrl RCTRL O     &kp P                  &kp PLUS
+          &kp ESC                &kp Q                  &hm_l_ctrl LCTRL W     &hm_l_opt LALT E       &hm_l_cmd LGUI R       &kp T                  &kp Y                  &hm_r_ctrl RGUI U      &hm_r_opt RALT I       &hm_r_ctrl RCTRL O     &kp P                  &kp PLUS
           &kp EQUAL              &kp A                  &kp S                  &kp D                  &kp F                  &kp G                  &kp H                  &kp J                  &kp K                  &kp L                  &kp SEMI               &kp AMPERSAND
           &kp TAB                &kp Z                  &kp X                  &kp C                  &kp V                  &kp B                  &kp N                  &kp M                  &kp COMMA              &kp DOT                &kp SLASH              &none
-                                                                               &kp BSPC               &kp SPACE              &mo 1                  &kp ENTER              &kp LSHIFT             &hm_esc &mo 2 &kp ESC
+                                                                               &kp BSPC               &kp SPACE              &mo 1                  &kp ENTER              &kp LSHIFT             &mo 2
         >;
     };
 
@@ -196,7 +186,7 @@ keymap {
         display-name = "Spcl";
         bindings = <
           &none                  &none                  &kp N7                 &kp N8                 &kp N9                 &none                  &none                  &kp CARET              &kp DOLLAR             &kp PERCENT            &kp GRAVE              &none
-          &none                  &none                  &kp N4                 &kp N5                 &kp N6                 &none                  &none                  &kp PIPE               &kp TILDE              &kp HASH               &kp DQT                &none
+          &none                  &none                  &kp N4                 &kp N5                 &kp N6                 &none                  &kp ASTERISK           &kp PIPE               &kp TILDE              &kp HASH               &kp DQT                &none
           &none                  &kp N0                 &kp N1                 &kp N2                 &kp N3                 &none                  &none                  &kp QMARK              &kp EXCL               &kp AT_SIGN            &none                  &none
                                                                                &none                  &none                  &none                  &none                  &none                  &none
         >;
